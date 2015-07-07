@@ -1,0 +1,299 @@
+/*
+ * Manvi Goyal
+ * Symphony Commerce Code Challenge
+ * Date: 6/31/15
+ */
+
+html,
+body {
+    height: 100%;
+}
+
+/* Top Bar before Header */
+
+.bar{
+    height: 30px;
+    width: 100%;
+    background-color: #f0f2ef;
+    text-align: left;
+    position: relative;
+    padding-left: 10%;
+
+}
+
+.bar:before{
+    content: "";
+}
+
+.bar > h6 {
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000;
+    display: inline-block;
+    position: relative;
+}
+
+.bar > h5{
+    text-align: right;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+    display: inline-block;
+    float: right;
+    margin-right: 15%;
+    margin-left: -12px;
+}
+
+/* Items In The Bag */
+
+.bag-label{
+    width: 135px;
+    height: 24px;
+    line-height: 12px;
+    background: #E1E0DE;
+    border-radius: 4px;
+    display: inline-block;
+    float: right;
+    margin-top: 34px;
+}
+
+.bag-label #bag{
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border: 1px solid #E1E0DE;
+    border-radius: 4px;
+    display: inline-block;
+    float: left;
+    padding-top: 3px;
+}
+
+.bold{
+    font-weight: 700;
+    display: inline-block;
+}
+
+.bag-label #text {
+    font-size: 10px;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+    display: relative;
+    padding-top: 5px;
+}
+
+.bag-label > img{
+    display: inline-block;
+    float: left;
+}
+
+/* Carousel */
+
+.carousel {
+    height: 460px;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Orange Promotion Bar */
+
+.bar1 {
+    height: 47px;
+    width: 100%;
+    margin-top: -10px;
+    background-color: #f06b20;
+    display: inline-block;
+}
+
+.bar1 > h6 {
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #fff;
+    display: block;
+    padding-top: 18px;
+}
+
+/* Information Section */
+
+.shape { 
+padding: 20px;
+}
+
+#rectangle{
+    width: 100%;
+    height: 200px;
+    background: #f0f2ef;
+}
+#rectangle:before{
+    content: "";
+    display: block;
+    padding-top: 25%;
+}
+
+.info-label{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.learn-label{
+    width: 50%;
+    height: 24px;
+    background: #000;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.learn-label:before{
+    content: "";
+    padding-top: 25%;
+}
+
+.learn-label > h6 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 5px;
+}
+
+/* Grey Section */
+.bar2 {
+    height: 300px;
+    width: 100%;
+    background-color: #f0f2ef;
+}
+
+/* Marketing Bar */
+
+.bar3 {
+    height: 70px;
+    width: 100%;
+    background-color: #f0f2ef;
+    margin: 20px 0px 20px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.bar3:before{
+    content: "";
+}
+
+.bar3 > h4 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    display: inline-block;
+    position: relative;
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+.orange{
+    color: #f06b20;
+    display: inline-block;
+}
+
+.grey{
+    color: #949494;
+    display: inline-block;
+}
+
+.left{
+    text-align: left;
+}
+
+/* Stay Connected Section */
+
+.email{
+    width: 70%;
+    height: 40px;
+    border-style: solid;
+    border-color: #949494;
+    border-width: 1px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email:before{
+    content: "";
+    padding-top: 25%;
+}
+
+.email > h6 {
+    font-size: 14px;
+    font-weight: 100;
+    color: #949494;
+    padding: 10px 0 0 10px;
+    text-align: left;
+    letter-spacing: 1px;
+    display: inline-block;
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
+}
+
+.go-button{
+    width: 14%;
+    height: 40px;
+    background-color: #f06b20;
+    border-style: solid;
+    border-color: #949494;
+    border-width: 1px;
+    display: inline-block;
+    margin-left: -10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.go-button:before{
+    content: "";
+    padding-top: 25%;
+}
+
+.go-button > h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0 0 10px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
+}
+
+.left > img{
+    margin-right: 20px;
+    margin-top: -2px;
+    display: inline-block;
+    position: relative;
+}
+
+footer {
+    margin: 0 0 40px;
+}
